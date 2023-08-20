@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>PhotoGallery</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">Photo Gallery</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#photos">Photo's</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#photos">Photo's</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- photo/grid -->
+    <section class="container section scrollspy" id="photos">
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Potraits</h2>
+                <p>Portrait photography is a very well-known and popular style of photography. 
+                   This style of photography is all about trying to capture the personality, identity, soul, 
+                   and emotions of a person by utilizing the background atmosphere, poses, and lighting.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4 push-l7 offset-l1">
+                <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 pull-l5 right-align offset-l1">
+                <h2 class="indigo-text text-darken-4">CityScape</h2>
+                <p>A cityscape in art is a painting, print, drawing or other representation of an urban area.
+                    It is an artistic representation of the physical aspects of an urban area or cities.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l4">
+                <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Nature</h2>
+                <p>Nature, in the broadest sense, is the physical world or universe. "Nature" can refer to 
+                   the phenomena of the physical world, and also to life in general. The study of nature is a large, 
+                   if not the only, part of science.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/street.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- services / tabs -->
+    <section class="container section scrollspy" id="services">
+        <div class="row">
+            <div class="col s12 l4">
+                <h2 class="indigo-text text-darken-4">What I Do...</h2>
+                <p>Use technical expertise, creativity, and composition skills to produce and preserve images.</p>
+                <p>Capture Beautiful Moments that reminds of memories when looked in future.</p>
+            </div>
+            <div class="col s12 l6 offset-l2">
+                <ul class="tabs">
+                    <li class="tab col s6">
+                        <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+                    </li>
+                </ul>
+                <div class="col s12" id="photography">
+                    <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+                    <p>Photography is the art, application, and practice of creating images by recording light, either electronically by 
+                       means of an image sensor, or chemically by means of a light-sensitive material such as photographic film.
+                    </p>
+                    <p>Photography is an important tool for preserving memories and telling stories. Images let individuals relate to one 
+                        another and also shed light on the past.
+                    </p>
+                </div>
+                <div class="col s12" id="editing">
+                    <p class="flow-text indigo-text text-darken-4">EDITING</p>
+                    <p>Editing is the process of selecting and preparing written, photographic, visual, audible, or cinematic material 
+                        used by a person or an entity to convey a message or information.
+                    </p>
+                    <p>The editing process can involve correction, condensation, organisation, and many other modifications performed
+                        with an intention of producing a correct, consistent, accurate and complete piece of work.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/stars.jpg" alt="" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- contact form -->
+    <section class="container section scrollspy" id="contact">
+        <div class="row">
+            <div class="col s12 l5">
+                <h2 class="indigo-text text-darken-4">About Me...</h2>
+                <p>As a dedicated and passionate professional photographer, I have spent years honing my craft and cultivating a unique 
+                   visual style that blends artistic creativity with technical expertise.
+                </p>
+                <p>My journey behind the lens began with a fascination for storytelling through images, and it has evolved into a career 
+                   that allows me to freeze fleeting moments in time and turn them into lasting memories.
+                </p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">calendar_month</i>
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose a date you need me for...</label>
+                    </div>
+                    <div class="input-field">
+                        <p>Services required...</p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Photography</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Editing</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field center">
+                        <button class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>Contact</h5>
+                    <p>For inquiries, bookings, or to simply say hello, feel free to reach out at +91 8978593317.</p>
+                    <p>For More Details email at <a href="photogallery.co.in">photogallery.co.in</a></p>
+                </div>
+                <div class="col s12 l4">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+                        <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
+                        <li><a href="" class="grey-text text-lighten-3">Linked In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2018 PhotoGallery</div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+            });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        })
+    </script>
+</body>
+</html>
